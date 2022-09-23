@@ -10,6 +10,7 @@
 		C6BE6E0928D9EB6D00BBF095 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */; };
 		C6BE6E0B28D9F07600BBF095 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */; };
 		C6BE6E0E28DCCFE600BBF095 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C6BE6E0D28DCCFE600BBF095 /* Alamofire */; };
+		C6BE6E1028DDB93F00BBF095 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */; };
 		C6F65B1328C65C2800A780C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F65B1228C65C2800A780C0 /* AppDelegate.swift */; };
 		C6F65B1528C65C2800A780C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F65B1428C65C2800A780C0 /* SceneDelegate.swift */; };
 		C6F65B1728C65C2800A780C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F65B1628C65C2800A780C0 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = SOURCE_ROOT; };
 		C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		C6F65B0F28C65C2800A780C0 /* iMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F65B1228C65C2800A780C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F65B1428C65C2800A780C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				C6F65B1228C65C2800A780C0 /* AppDelegate.swift */,
 				C6F65B1428C65C2800A780C0 /* SceneDelegate.swift */,
+				C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */,
 				C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */,
 				C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */,
 				C6F65B1628C65C2800A780C0 /* ViewController.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				C6BE6E0B28D9F07600BBF095 /* SearchViewController.swift in Sources */,
 				C6F65B1728C65C2800A780C0 /* ViewController.swift in Sources */,
+				C6BE6E1028DDB93F00BBF095 /* SearchResponse.swift in Sources */,
 				C6F65B1328C65C2800A780C0 /* AppDelegate.swift in Sources */,
 				C6F65B1528C65C2800A780C0 /* SceneDelegate.swift in Sources */,
 				C6BE6E0928D9EB6D00BBF095 /* MainTabBarController.swift in Sources */,
