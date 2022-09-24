@@ -22,7 +22,7 @@ class MainTabBarController: UITabBarController {
         
     
         viewControllers = [
-            generateViewController(rootViewController: SearchViewController(), image: #imageLiteral(resourceName: "ios10-apple-music-search-5nav-icon"), title: "Search"),
+            generateViewController(rootViewController: SearchMusicViewController(), image: #imageLiteral(resourceName: "ios10-apple-music-search-5nav-icon"), title: "Search"),
             generateViewController(rootViewController: ViewController(), image: #imageLiteral(resourceName: "ios10-apple-music-library-5nav-icon"), title: "Library")
         ]
     }

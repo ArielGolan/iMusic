@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C638A26328DEFBF50079373F /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A25C28DEFBF50079373F /* SearchPresenter.swift */; };
+		C638A26428DEFBF50079373F /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A25D28DEFBF50079373F /* SearchWorker.swift */; };
+		C638A26528DEFBF50079373F /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A25E28DEFBF50079373F /* SearchRouter.swift */; };
+		C638A26628DEFBF50079373F /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A25F28DEFBF50079373F /* SearchModels.swift */; };
+		C638A26728DEFBF50079373F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A26028DEFBF50079373F /* SearchViewController.swift */; };
+		C638A26828DEFBF50079373F /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638A26128DEFBF50079373F /* SearchInteractor.swift */; };
+		C638A26928DEFBF50079373F /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C638A26228DEFBF50079373F /* SearchViewController.xib */; };
 		C6BE6E0928D9EB6D00BBF095 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */; };
-		C6BE6E0B28D9F07600BBF095 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */; };
+		C6BE6E0B28D9F07600BBF095 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0A28D9F07600BBF095 /* SearchMusicViewController.swift */; };
 		C6BE6E0E28DCCFE600BBF095 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C6BE6E0D28DCCFE600BBF095 /* Alamofire */; };
 		C6BE6E1028DDB93F00BBF095 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */; };
 		C6BE6E1228DE042100BBF095 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE6E1128DE042100BBF095 /* NetworkService.swift */; };
@@ -21,8 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C638A25C28DEFBF50079373F /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		C638A25D28DEFBF50079373F /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		C638A25E28DEFBF50079373F /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		C638A25F28DEFBF50079373F /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		C638A26028DEFBF50079373F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C638A26128DEFBF50079373F /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		C638A26228DEFBF50079373F /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = SOURCE_ROOT; };
-		C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C6BE6E0A28D9F07600BBF095 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		C6BE6E1128DE042100BBF095 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C6F65B0F28C65C2800A780C0 /* iMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +61,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C638A24C28DEE8E40079373F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C638A25C28DEFBF50079373F /* SearchPresenter.swift */,
+				C638A25D28DEFBF50079373F /* SearchWorker.swift */,
+				C638A25E28DEFBF50079373F /* SearchRouter.swift */,
+				C638A25F28DEFBF50079373F /* SearchModels.swift */,
+				C638A26028DEFBF50079373F /* SearchViewController.swift */,
+				C638A26128DEFBF50079373F /* SearchInteractor.swift */,
+				C638A26228DEFBF50079373F /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C638A25B28DEEA310079373F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE6E1128DE042100BBF095 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C6F65B0628C65C2800A780C0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,10 +104,11 @@
 			children = (
 				C6F65B1228C65C2800A780C0 /* AppDelegate.swift */,
 				C6F65B1428C65C2800A780C0 /* SceneDelegate.swift */,
-				C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */,
+				C638A25B28DEEA310079373F /* Services */,
 				C6BE6E0828D9EB6D00BBF095 /* MainTabBarController.swift */,
-				C6BE6E0A28D9F07600BBF095 /* SearchViewController.swift */,
-				C6BE6E1128DE042100BBF095 /* NetworkService.swift */,
+				C638A24C28DEE8E40079373F /* Search */,
+				C6BE6E0F28DDB93F00BBF095 /* SearchResponse.swift */,
+				C6BE6E0A28D9F07600BBF095 /* SearchMusicViewController.swift */,
 				C6F65B1628C65C2800A780C0 /* ViewController.swift */,
 				C6F65B1828C65C2800A780C0 /* Main.storyboard */,
 				C6F65B1B28C65C2B00A780C0 /* Assets.xcassets */,
@@ -147,6 +184,7 @@
 			files = (
 				C6F65B1F28C65C2B00A780C0 /* LaunchScreen.storyboard in Resources */,
 				C6F65B1C28C65C2B00A780C0 /* Assets.xcassets in Resources */,
+				C638A26928DEFBF50079373F /* SearchViewController.xib in Resources */,
 				C6F65B1A28C65C2800A780C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,12 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BE6E0B28D9F07600BBF095 /* SearchViewController.swift in Sources */,
+				C6BE6E0B28D9F07600BBF095 /* SearchMusicViewController.swift in Sources */,
 				C6F65B1728C65C2800A780C0 /* ViewController.swift in Sources */,
 				C6BE6E1028DDB93F00BBF095 /* SearchResponse.swift in Sources */,
+				C638A26828DEFBF50079373F /* SearchInteractor.swift in Sources */,
 				C6F65B1328C65C2800A780C0 /* AppDelegate.swift in Sources */,
 				C6F65B1528C65C2800A780C0 /* SceneDelegate.swift in Sources */,
+				C638A26428DEFBF50079373F /* SearchWorker.swift in Sources */,
+				C638A26728DEFBF50079373F /* SearchViewController.swift in Sources */,
+				C638A26528DEFBF50079373F /* SearchRouter.swift in Sources */,
+				C638A26628DEFBF50079373F /* SearchModels.swift in Sources */,
 				C6BE6E0928D9EB6D00BBF095 /* MainTabBarController.swift in Sources */,
+				C638A26328DEFBF50079373F /* SearchPresenter.swift in Sources */,
 				C6BE6E1228DE042100BBF095 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
