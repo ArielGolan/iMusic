@@ -15,7 +15,7 @@ struct SearchResponse: Decodable {
 
 struct Track: Decodable {
     var trackName: String
-    var collectionCensoredName: String?
+    var collectionName: String?
     var artistName: String
     var artworkUrl100: String?
 }
